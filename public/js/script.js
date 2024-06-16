@@ -102,9 +102,7 @@ $(window).bind("scroll", function () {
   var navHeight = $(window).height() - 100;
   if ($(window).scrollTop() > navHeight) {
     $(".navbar").addClass("on");
-  } else {
-    $(".navbar").removeClass("on");
-  }
+  } 
 });
 
 /* ==============================================

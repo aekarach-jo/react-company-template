@@ -23,7 +23,7 @@ const Services = () => {
         <div className="row">
           <div className="features-sec">
             <div
-              className="col-md-4 col-sm-6 col-xs-6 wow fadeInUp"
+              className="col-md-4 col-sm-6 col-xs-12 wow fadeInUp"
               data-wow-duration="300ms"
               data-wow-delay="0ms"
             >
@@ -43,7 +43,7 @@ const Services = () => {
             </div>
             {/*/.col-md-4*/}
             <div
-              className="col-md-4 col-sm-6 col-xs-6 wow fadeInUp"
+              className="col-md-4 col-sm-6 col-xs-12 wow fadeInUp"
               data-wow-duration="300ms"
               data-wow-delay="100ms"
             >
@@ -63,7 +63,7 @@ const Services = () => {
             </div>
             {/*/.col-md-4*/}
             <div
-              className="col-md-4 col-sm-6 col-xs-6 wow fadeInUp"
+              className="col-md-4 col-sm-6 col-xs-12 wow fadeInUp"
               data-wow-duration="300ms"
               data-wow-delay="200ms"
             >
@@ -83,7 +83,7 @@ const Services = () => {
             </div>
             {/*/.col-md-4*/}
             <div
-              className="col-md-4 col-sm-6 col-xs-6 wow fadeInUp"
+              className="col-md-4 col-sm-6 col-xs-12 wow fadeInUp"
               data-wow-duration="300ms"
               data-wow-delay="300ms"
             >
@@ -103,7 +103,7 @@ const Services = () => {
             </div>
             {/*/.col-md-4*/}
             <div
-              className="col-md-4 col-sm-6 col-xs-6 wow fadeInUp"
+              className="col-md-4 col-sm-6 col-xs-12 wow fadeInUp"
               data-wow-duration="300ms"
               data-wow-delay="400ms"
             >
@@ -123,7 +123,7 @@ const Services = () => {
             </div>
             {/*/.col-md-4*/}
             <div
-              className="col-md-4 col-sm-6 col-xs-6 wow fadeInUp"
+              className="col-md-4 col-sm-6 col-xs-12 wow fadeInUp"
               data-wow-duration="300ms"
               data-wow-delay="500ms"
             >
