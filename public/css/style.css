@@ -227,9 +227,10 @@ a.btn-send:hover {
 	border:rgba(248, 248, 248, 0);
 	padding:5px 5px;
 }
-a.navbar-brand img {
+a.navbar-brand {
 	position:relative;
-	top:9px;
+	color: #d7d7d7 !important;
+	top:18px;
 }
 #menu {
 	position:absolute;
