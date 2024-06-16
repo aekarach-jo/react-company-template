@@ -7,17 +7,13 @@ function App() {
   return (
     <>
       <Header />
-      <body data-spy="scroll" data-target=".navbar-default" data-offset="100">
-        <main>
-          {/* <div id="preloader">
-            <div id="pre-status">
-              <div class="preload-placeholder"></div>
-            </div>
-          </div> */}
-          <Outlet />
-        </main>
-        <Footer />
-      </body>
+      <div id="preloader">
+        <div id="pre-status">
+          <div class="preload-placeholder"></div>
+        </div>
+      </div>
+      <Outlet />
+      <Footer />
     </>
   );
 }

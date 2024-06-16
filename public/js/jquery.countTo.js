@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 (function (factory) {
     if (typeof define === 'function' && define.amd) {
         // AMD

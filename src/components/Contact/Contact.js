@@ -47,7 +47,7 @@ const Contact = () => {
               <li>
                 <i className="fa fa-wechat" />
                 <h6>
-                  <strong>Website:</strong> <a href="#">www.Cosmix.com</a>{" "}
+                  <strong>Website:</strong> <a href="#">www.google.com</a>{" "}
                 </h6>
               </li>
             </ul>

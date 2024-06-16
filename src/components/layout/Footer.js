@@ -54,8 +54,8 @@ const Footer = () => {
         </ul>
         <p>
           {" "}
-          © Copyright 2016 Cosmix - Created By :{" "}
-          <a href="http://templatestock.co" target="_blank">
+          © Copyright 2016 CNOS - Created By :{" "}
+          <a href="http://www.google.com" target="_blank">
             Template Stock
           </a>
         </p>
