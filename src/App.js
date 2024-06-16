@@ -7,11 +7,11 @@ function App() {
   return (
     <>
       <Header />
-      <div id="preloader">
+      {/* <div id="preloader">
         <div id="pre-status">
           <div class="preload-placeholder"></div>
         </div>
-      </div>
+      </div> */}
       <Outlet />
       <Footer />
     </>
