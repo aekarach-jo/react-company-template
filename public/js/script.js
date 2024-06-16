@@ -99,10 +99,12 @@ $(function () {
   	=============================================== */
 
 $(window).bind("scroll", function () {
-  var navHeight = $(window).height() - 100;
+  var navHeight = $(window).height() - 350;
   if ($(window).scrollTop() > navHeight) {
     $(".navbar").addClass("on");
-  } 
+  } else {
+    $(".navbar").removeClass("on");
+  }
 });
 
 /* ==============================================
