@@ -15,7 +15,7 @@ import FunFacts from "../components/Fun-facts/FunFacts";
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Slider />
       <About />
       <BgSec />
@@ -29,7 +29,7 @@ const Home = () => {
       <Blog />
       <Client />
       <Contact />
-    </div>
+    </>
   );
 };
 
