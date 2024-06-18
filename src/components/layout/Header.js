@@ -19,7 +19,7 @@ const Header = () => {
                 <span className="icon-bar" />{" "}
               </button>
               <a className="navbar-brand" href="#menu">
-                CNOS
+                ProjectJKS
                 {/* <img src="images/Logo/01.png" alt /> */}
               </a>
             </div>

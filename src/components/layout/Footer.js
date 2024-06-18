@@ -54,9 +54,9 @@ const Footer = () => {
         </ul>
         <p>
           {" "}
-          © Copyright 2016 CNOS - Created By :{" "}
+          © Copyright 2016 ProjectJKS - Created By :{" "}
           <a href="/" target="_blank">
-            Aekarach CNOS
+            Aekarach ProjectJKS
           </a>
         </p>
       </footer>
