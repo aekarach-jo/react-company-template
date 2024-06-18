@@ -55,8 +55,8 @@ const Footer = () => {
         <p>
           {" "}
           © Copyright 2016 CNOS - Created By :{" "}
-          <a href="http://www.google.com" target="_blank">
-            Template Stock
+          <a href="/" target="_blank">
+            Aekarach CNOS
           </a>
         </p>
       </footer>

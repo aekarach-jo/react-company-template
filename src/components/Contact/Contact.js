@@ -29,7 +29,7 @@ const Contact = () => {
               <li>
                 <i className="fa fa-map-marker" />
                 <h6>
-                  <strong>Address:</strong> No 123 , Wallstreet, India{" "}
+                  <strong>Address:</strong> No 123 , KHONKAEN, THAILAND{" "}
                 </h6>
               </li>
               <li>
