@@ -5,8 +5,8 @@ const Header = () => {
     <header id="menu">
       <div className="navbar navbar-default navbar-fixed-top">
         <div className="container">
-          <div className="container-fluid">
-            <div className="navbar-header">
+          <div className="navbar-between">
+            <div className="navbar-header navbar-m">
               <button
                 type="button"
                 className="navbar-toggle collapsed"
@@ -24,7 +24,7 @@ const Header = () => {
               </a>
             </div>
             <div
-              className="collapse navbar-collapse"
+              className="collapse navbar-collapse navbar-m"
               id="bs-example-navbar-collapse-1"
             >
               <ul className="nav navbar-nav">
@@ -43,7 +43,7 @@ const Header = () => {
                     Service
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a className="scroll" href="#features">
                     Features
                   </a>
@@ -62,12 +62,12 @@ const Header = () => {
                   <a className="scroll" href="#team">
                     Team
                   </a>
-                </li>
+                </li>*/}
                 <li>
                   <a className="scroll" href="#blog">
                     Blog
                   </a>
-                </li>
+                </li> 
                 <li>
                   <a className="scroll" href="#contact">
                     Contact

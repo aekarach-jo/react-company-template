@@ -4227,6 +4227,18 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     float: left;
   }
 }
+.navbar-between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .navbar-between {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
 .navbar-collapse {
   padding-right: 15px;
   padding-left: 15px;
@@ -4271,6 +4283,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-fixed-bottom .navbar-collapse {
     max-height: 200px;
   }
+}
+.navbar-m {
+  margin: auto 20px !important;
 }
 .container > .navbar-header,
 .container-fluid > .navbar-header,
