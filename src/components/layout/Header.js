@@ -20,7 +20,7 @@ const Header = () => {
               </button>
               <a className="navbar-brand" href="#menu">
                 {/* Wolf Delelopment */}
-                <img src="images/Logo/Wolf Delelopment.png" alt />
+                <img src="images/Logo/wolf.png" alt />
               </a>
             </div>
             <div
