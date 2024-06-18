@@ -19,8 +19,8 @@ const Header = () => {
                 <span className="icon-bar" />{" "}
               </button>
               <a className="navbar-brand" href="#menu">
-                ProjectJKS
-                {/* <img src="images/Logo/01.png" alt /> */}
+                {/* WOLF */}
+                <img src="images/Logo/wolf.png" alt />
               </a>
             </div>
             <div
