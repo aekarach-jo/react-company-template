@@ -12,10 +12,10 @@ const Slider = () => {
             <div className="carousel-caption container">
               <div className="row">
                 <div className="col-md-7 col-sm-12 col-xs-12">
-                  <h1>We Are WOLF</h1>
+                  <h1>We Are Wolf Delelopment</h1>
                   <h2>Creative Themes</h2>
                   <p>
-                    WOLF – A One Page Parallax, HTML5 and Responsive Template
+                    Wolf Delelopment – A One Page Parallax, HTML5 and Responsive Template
                     suitable for any creative business agency. Multiple pages
                     also included in this theme with lots of CSS and JQuery
                     animations
@@ -31,10 +31,10 @@ const Slider = () => {
             <div className="carousel-caption container">
               <div className="row">
                 <div className="col-md-7 col-sm-12 col-xs-12">
-                  <h1>We Are WOLF</h1>
+                  <h1>We Are Wolf Delelopment</h1>
                   <h2>Creative Themes</h2>
                   <p>
-                    WOLF – A One Page Parallax, HTML5 and Responsive Template
+                    Wolf Delelopment – A One Page Parallax, HTML5 and Responsive Template
                     suitable for any creative business agency. Multiple pages
                     layouts also in this theme with lots of CSS and JQuery
                     animations
@@ -50,10 +50,10 @@ const Slider = () => {
             <div className="carousel-caption container">
               <div className="row">
                 <div className="col-md-7 col-sm-12 col-xs-12">
-                  <h1>We Are WOLF</h1>
+                  <h1>We Are Wolf Delelopment</h1>
                   <h2>Creative Themes</h2>
                   <p>
-                    WOLF – A One Page Parallax, HTML5 and Responsive Template
+                    Wolf Delelopment – A One Page Parallax, HTML5 and Responsive Template
                     suitable for any creative business agency. Multiple page
                     also included in this theme with lots of CSS and JQuery
                     animations

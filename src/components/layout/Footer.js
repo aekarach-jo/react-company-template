@@ -54,9 +54,9 @@ const Footer = () => {
         </ul>
         <p>
           {" "}
-          © Copyright 2016 WOLF - Created By :{" "}
+          © Copyright 2016 Wolf Delelopment - Created By :{" "}
           <a href="/" target="_blank">
-            Aekarach WOLF
+            Aekarach Wolf Delelopment
           </a>
         </p>
       </footer>
