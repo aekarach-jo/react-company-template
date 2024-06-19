@@ -89,7 +89,7 @@ export const serviceData = {
     {
       id: 0,
       lead: 'Web Application',
-      value: '95%'
+      value: '90%'
     },
     {
       id: 1,
@@ -99,7 +99,7 @@ export const serviceData = {
     {
       id: 2,
       lead: 'UI Design',
-      value: '60%'
+      value: '80%'
     },
   ]
 };
