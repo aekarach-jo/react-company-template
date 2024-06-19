@@ -293,6 +293,7 @@ a.navbar-brand img {
 
 @media (max-width: 768px) {
 	a.navbar-brand img {
+		top: 3px;
 		width: 70px;
 		height: 50px;
 	}
