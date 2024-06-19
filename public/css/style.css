@@ -602,6 +602,13 @@ ul.nav li.active a:before {
 	margin-top: 30px;
 }
 
+.experience h3 {
+	text-align: start;
+	font-weight: 600;
+	margin-left: 15px;
+	margin-bottom: 25px;
+}
+
 .progress {
 	height: 20px;
 	background-color: #d7d7d7;

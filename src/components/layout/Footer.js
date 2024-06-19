@@ -13,7 +13,7 @@ const Footer = () => {
         </div>
       </footer>
 
-      <footer id="footer-down">
+      <footer id="footer-down" style={{ display: "none" }}>
         <h2>Follow Us On</h2>
         <ul className="social-icon">
           <li className="facebook hvr-pulse">
@@ -54,9 +54,9 @@ const Footer = () => {
         </ul>
         <p>
           {" "}
-          © Copyright 2016 Wolf Delelopment - Created By :{" "}
+          © Copyright 2016 Wolf Development - Created By :{" "}
           <a href="/" target="_blank">
-            Aekarach Wolf Delelopment
+            Aekarach Wolf Development
           </a>
         </p>
       </footer>

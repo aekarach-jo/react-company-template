@@ -12,11 +12,11 @@ const Contact = () => {
             <div className="line" />
             <p>
               <span>
-                <strong>L</strong>
+                <strong></strong>
               </span>
-              orem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              {/* orem ipsum dolor sit amet, consectetur adipisicing elit, sed do
               eiusmod tempor incididunt ut et dolore magna aliqua. Ut enim ad
-              minim veniam
+              minim veniam */}
             </p>
           </div>
         </div>
@@ -29,27 +29,30 @@ const Contact = () => {
               <li>
                 <i className="fa fa-map-marker" />
                 <h6>
-                  <strong>Address:</strong> No 123 , KHONKAEN, THAILAND{" "}
+                  <strong>Address:</strong> Bangkok, THAILAND
                 </h6>
               </li>
               <li>
                 <i className="fa fa-envelope" />
                 <h6>
-                  <strong>Mail Us:</strong> <a href="#">Info@yourdomain.com</a>
+                  <strong>Mail Us:</strong>{" "}
+                  <a href="#">
+                    gobcub@gmail.com, aekarach.jomkhamsing@gmail.com
+                  </a>
                 </h6>
               </li>
               <li>
                 <i className="fa fa-phone" />
                 <h6>
-                  <strong>Phone:</strong> +91 123-456-7890{" "}
+                  <strong>Phone:</strong> 092-292-6495
                 </h6>
               </li>
-              <li>
+              {/* <li>
                 <i className="fa fa-wechat" />
                 <h6>
                   <strong>Website:</strong> <a href="#">www.google.com</a>{" "}
                 </h6>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div className="col-md-6 col-sm-6">

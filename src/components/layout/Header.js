@@ -19,7 +19,7 @@ const Header = () => {
                 <span className="icon-bar" />{" "}
               </button>
               <a className="navbar-brand" href="#menu">
-                {/* Wolf Delelopment */}
+                {/* Wolf Development */}
                 <img src="images/Logo/wolf.png" alt />
               </a>
             </div>
@@ -62,12 +62,12 @@ const Header = () => {
                   <a className="scroll" href="#team">
                     Team
                   </a>
-                </li>*/}
+                </li>
                 <li>
                   <a className="scroll" href="#blog">
                     Blog
                   </a>
-                </li> 
+                </li> */}
                 <li>
                   <a className="scroll" href="#contact">
                     Contact

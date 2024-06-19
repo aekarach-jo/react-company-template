@@ -1,7 +1,6 @@
 import React from "react";
 import Slider from "../components/Slider/Slider";
 import About from "../components/About/About";
-import BgSec from "../components/BgSec/BgSec";
 import Services from "../components/Services/Services";
 import Features from "../components/Features/Features";
 import Portfolio from "../components/Portfolio/Portfolio";
@@ -18,15 +17,14 @@ const Home = () => {
     <>
       <Slider />
       <About />
-      <BgSec />
       <Services />
-      <Features />
-      <Portfolio />
-      <Pricing />
-      <Team />
-      <Testimonials />
+      {/* <Features /> */}
+      {/* <Portfolio /> */}
+      {/* <Pricing /> */}
+      {/* <Team /> */}
+      {/* <Testimonials /> */}
       <FunFacts />
-      <Blog />
+      {/* <Blog /> */}
       <Client />
       <Contact />
     </>

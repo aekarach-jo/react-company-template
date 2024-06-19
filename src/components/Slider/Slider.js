@@ -1,67 +1,28 @@
 import React from "react";
+import { sliderData } from "../../config";
 
 const Slider = () => {
   return (
     <section id="slider">
       <div id="home-carousel" className="carousel slide" data-ride="carousel">
         <div className="carousel-inner">
-          <div
-            className="item active"
-            style={{ backgroundImage: "url(images/Slider/01.jpg)" }}
-          >
-            <div className="carousel-caption container">
-              <div className="row">
-                <div className="col-md-7 col-sm-12 col-xs-12">
-                  <h1>We Are Wolf Delelopment</h1>
-                  <h2>Creative Themes</h2>
-                  <p>
-                    Wolf Delelopment – A One Page Parallax, HTML5 and Responsive Template
-                    suitable for any creative business agency. Multiple pages
-                    also included in this theme with lots of CSS and JQuery
-                    animations
-                  </p>
+          {sliderData.map((data, index) => (
+            <div
+              key={index}
+              className={`${data.isActive ? "active" : ""} item`}
+              style={{ backgroundImage: data.image }}
+            >
+              <div className="carousel-caption container">
+                <div className="row">
+                  <div className="col-md-8 col-sm-12 col-xs-12">
+                    <h1>{data.h1}</h1>
+                    <h2>{data.h2}</h2>
+                    <p>{data.detail}</p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div
-            className="item"
-            style={{ backgroundImage: "url(images/Slider/02.jpg)" }}
-          >
-            <div className="carousel-caption container">
-              <div className="row">
-                <div className="col-md-7 col-sm-12 col-xs-12">
-                  <h1>We Are Wolf Delelopment</h1>
-                  <h2>Creative Themes</h2>
-                  <p>
-                    Wolf Delelopment – A One Page Parallax, HTML5 and Responsive Template
-                    suitable for any creative business agency. Multiple pages
-                    layouts also in this theme with lots of CSS and JQuery
-                    animations
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            className="item"
-            style={{ backgroundImage: "url(images/Slider/03.jpg)" }}
-          >
-            <div className="carousel-caption container">
-              <div className="row">
-                <div className="col-md-7 col-sm-12 col-xs-12">
-                  <h1>We Are Wolf Delelopment</h1>
-                  <h2>Creative Themes</h2>
-                  <p>
-                    Wolf Delelopment – A One Page Parallax, HTML5 and Responsive Template
-                    suitable for any creative business agency. Multiple page
-                    also included in this theme with lots of CSS and JQuery
-                    animations
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+          ))}
           <a
             className="home-carousel-left"
             href="#home-carousel"
@@ -78,7 +39,6 @@ const Slider = () => {
           </a>
         </div>
       </div>
-      {/*/#home-carousel*/}
     </section>
   );
 };

@@ -1,4 +1,5 @@
 import React from "react";
+import { aboutData } from "../../config";
 
 const About = () => {
   return (
@@ -12,11 +13,9 @@ const About = () => {
             <div className="line" />
             <p>
               <span>
-                <strong>L</strong>
+                <strong>{aboutData.caption_first}</strong>
               </span>
-              orem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut et dolore magna aliqua. Ut enim ad
-              minim veniam
+              {aboutData.caption_second}
             </p>
           </div>
         </div>
@@ -28,22 +27,14 @@ const About = () => {
                 data-wow-duration="1000ms"
                 data-wow-delay="300ms"
               >
-                <span>W</span>e Are Creative And Awesome
+                <span>{aboutData.title_first}</span>
+                {aboutData.title_second}
               </h3>
               <p>
                 <span>
-                  <strong>L</strong>
+                  <strong>{aboutData.detail_first}</strong>
                 </span>
-                orem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est
-                laborum.Lorem ipsum dolor sit amet, consectetur adipisicing
-                elit, sed do eiusmod tempor.Lorem Ipsum is simply dummy text of
-                the printing and typesetting industry. book.{" "}
+                {aboutData.detail_second}
               </p>
             </div>
             <div
@@ -51,7 +42,7 @@ const About = () => {
               data-wow-duration="1000ms"
               data-wow-delay="300ms"
             >
-              <img src="images/Aboutus/01.jpg" alt />{" "}
+              <img src="images/Aboutus/01.jpg" alt="about" />
             </div>
           </div>
         </div>
