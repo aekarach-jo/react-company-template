@@ -37,7 +37,7 @@ const Contact = () => {
                 <h6>
                   <strong>Mail Us:</strong>{" "}
                   <a href="#">
-                    gobcub@gmail.com, aekarach.jomkhamsing@gmail.com
+                    gobcub@gmail.com, aekarach.jo@gmail.com
                   </a>
                 </h6>
               </li>
